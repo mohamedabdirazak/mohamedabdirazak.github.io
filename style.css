@@ -1,56 +1,49 @@
-*{padding: 0;
+*{
+    padding: 0;
     margin:0;
     box-sizing: border-box;
 }
+
 h1{
     font-size: 2rem;
-  text-transform: uppercase;
 }
 h2{
     font-size: 1.5rem;
-  text-transform: uppercase;
+    text-transform: uppercase;
     border-bottom: 1px solid #808080;
-  border-top: 1px solid #808080;
-  padding: 1rem 0;
-  margin-bottom: 2rem;
+    border-top: 1px solid #808080;
+padding: 1rem 0;
+margin-bottom: 2rem;
 }
 h3{
     font-size: 1rem;
 }
 body{
-  }
-body{
-    background-color: #F5F5DC;
-};
-
-
-
+    background-color: beige;
+}
+p{
+    line-height: 2;
+}
+section+section{
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+}
 .profile{
- 
     text-align: center;
 }
-.title{
-  color:purple;
- 
-    font-size: 1.5rem;
- text-transform: uppercase;
-}
-.para{
-  font-size: 1.5rem;
-   line-height: 1.5;
-}
 .contact li{
-  text-align: right;
- text-transform: uppercase;
-  padding:.5rem
-    border-top: 1px solid #808080;
+     
+text-align: right;  
+text-transform: uppercase; 
+border-top: 1px solid #808080;
+
 }
 h3{
     color: blueviolet;
-}
-.skill > ul{
-  
- display:grid;
-  grid-template-columns: 1fr 1fr;
-  
-}
+    }
+  .skill > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
