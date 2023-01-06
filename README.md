@@ -1,1 +1,0 @@
-# mohamedabdirazak.github.io
